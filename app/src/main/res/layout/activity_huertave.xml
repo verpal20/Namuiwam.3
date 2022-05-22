@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yatulve.Huerta"
+    android:background="@drawable/fondove">
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="254dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tittlemenuhuerta" />
+
+    <VideoView
+        android:id="@+id/vvHuerta"
+        android:layout_width="305dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView54" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="166dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toEndOf="@+id/imgSonido"
+        app:layout_constraintTop_toBottomOf="@+id/imageView55"
+        app:srcCompat="@drawable/tablehuertave" />
+
+    <ImageView
+        android:id="@+id/imgSonido"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vvHuerta"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/sonido1ve" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgSonido"
+        app:layout_constraintTop_toBottomOf="@+id/vvHuerta"
+        app:srcCompat="@drawable/tablehuertavideove" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
