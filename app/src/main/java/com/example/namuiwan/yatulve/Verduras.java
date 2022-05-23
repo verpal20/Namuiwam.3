@@ -35,8 +35,8 @@ public class Verduras extends AppCompatActivity implements View.OnClickListener{
         txtPimiento = findViewById(R.id.txtPimiento);
 
         //almacena sonido en la variable gallina
-        cebolla    = MediaPlayer.create(this,R.raw.gallinaaa);
-        zanahoria  = MediaPlayer.create(this,R.raw.gallinaaa);
+        cebolla    = MediaPlayer.create(this,R.raw.cebollave);
+        zanahoria  = MediaPlayer.create(this,R.raw.zanahoriave);
         tomate       = MediaPlayer.create(this,R.raw.gatoaa);
         pimiento      = MediaPlayer.create(this,R.raw.perroaa);
     }
