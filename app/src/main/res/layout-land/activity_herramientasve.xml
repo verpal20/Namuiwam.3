@@ -11,62 +11,53 @@
         android:id="@+id/imageView53"
         android:layout_width="302dp"
         android:layout_height="97dp"
-        android:layout_marginStart="240dp"
+        android:layout_marginStart="236dp"
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/titleherramientas" />
 
     <ImageView
-        android:id="@+id/imgtitlemachete"
+        android:id="@+id/imgMachete"
+        android:layout_width="112dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imgPala"
+        app:layout_constraintTop_toBottomOf="@+id/imgAzadon"
+        app:srcCompat="@drawable/macheteve" />
+
+    <ImageView
+        android:id="@+id/imgtitlehacha"
         android:layout_width="155dp"
         android:layout_height="68dp"
-        android:layout_marginTop="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
-        app:layout_constraintTop_toBottomOf="@+id/imgtitleazadon"
-        app:srcCompat="@drawable/titlemachete" />
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        app:srcCompat="@drawable/titlehacha" />
 
     <ImageView
         android:id="@+id/imgtitlepala"
         android:layout_width="155dp"
         android:layout_height="68dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlehacha"
         app:srcCompat="@drawable/titlepala" />
 
     <ImageView
-        android:id="@+id/imgAzadon"
-        android:layout_width="117dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintStart_toEndOf="@+id/imgHacha"
-        app:layout_constraintTop_toBottomOf="@+id/imageView53"
-        app:srcCompat="@drawable/azadonve" />
-
-    <ImageView
-        android:id="@+id/imgHacha"
-        android:layout_width="100dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView53"
-        app:srcCompat="@drawable/hachave" />
-
-    <ImageView
-        android:id="@+id/imgMachete"
-        android:layout_width="112dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintStart_toEndOf="@+id/imgPala"
-        app:layout_constraintTop_toBottomOf="@+id/imgAzadon"
-        app:srcCompat="@drawable/macheteve" />
+        android:id="@+id/imgFlecha2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:rotationY="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toEndOf="@+id/imgMachete"
+        app:layout_constraintTop_toBottomOf="@+id/imgFlecha1"
+        app:srcCompat="@drawable/flechave" />
 
     <ImageView
         android:id="@+id/imgFlecha4"
@@ -79,36 +70,12 @@
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imgFlecha2"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="80dp"
-        android:rotationY="180"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.070"
-        app:layout_constraintStart_toEndOf="@+id/imgMachete"
-        app:layout_constraintTop_toBottomOf="@+id/imgFlecha1"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imgFlecha1"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="44dp"
-        android:rotationY="180"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toEndOf="@+id/imgAzadon"
-        app:layout_constraintTop_toBottomOf="@+id/imageView53"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
         android:id="@+id/imgtitleazadon"
         android:layout_width="155dp"
         android:layout_height="68dp"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
         app:layout_constraintTop_toBottomOf="@+id/imageView53"
         app:srcCompat="@drawable/titleazadon" />
@@ -119,7 +86,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toEndOf="@+id/imgtitlehacha"
         app:layout_constraintTop_toBottomOf="@+id/imageView53"
         app:srcCompat="@drawable/flechave" />
@@ -128,20 +95,53 @@
         android:id="@+id/imgPala"
         android:layout_width="99dp"
         android:layout_height="89dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha4"
         app:layout_constraintTop_toBottomOf="@+id/imgHacha"
         app:srcCompat="@drawable/palave" />
 
     <ImageView
-        android:id="@+id/imgtitlehacha"
+        android:id="@+id/imgAzadon"
+        android:layout_width="117dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgHacha"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        app:srcCompat="@drawable/azadonve" />
+
+    <ImageView
+        android:id="@+id/imgFlecha1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="44dp"
+        android:rotationY="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toEndOf="@+id/imgAzadon"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        app:srcCompat="@drawable/flechave" />
+
+    <ImageView
+        android:id="@+id/imgHacha"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        app:srcCompat="@drawable/hachave" />
+
+    <ImageView
+        android:id="@+id/imgtitlemachete"
         android:layout_width="155dp"
         android:layout_height="68dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView53"
-        app:srcCompat="@drawable/titlehacha" />
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitleazadon"
+        app:srcCompat="@drawable/titlemachete" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
